@@ -11,7 +11,8 @@ public class ExampleController {
 	
 	@GetMapping("/hello-word")
 	public ResponseEntity<String> get() {
-		return ResponseEntity.ok("Hello World!");
+		return ResponseEntity.ok("Hello World!"); 
+		//teste
 	}
 
 }
